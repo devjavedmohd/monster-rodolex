@@ -1,8 +1,7 @@
-﻿import { Component } from 'react';
+﻿// import { Component } from 'react';
 
 import './card.styles.css';
-const Card = (props) => {
-    const { monster } = props;
+const Card = ({monster}) => {
     const { id, name, email } = monster;
     
     return (
