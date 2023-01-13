@@ -5,3 +5,25 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+.chart::after {
+  content: "";
+  display: block;
+  /*background: white;*/
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.chart {
+  display: grid;
+  place-items: center;
+  background: conic-gradient(
+          pink 0deg 140deg,
+          yellow 140deg 260deg,
+          skyblue 260deg 360deg
+  );
+  width: 120px;
+  height: 120px;
+  border-radius:100%;
+}
